@@ -1,0 +1,51 @@
+[
+  {
+    "id": "aspire",
+    "name": "ASPIRE",
+    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "summary": "A Scheme for Promoting Innovation, Rural Industry & Entrepreneurship — supports rural innovation, micro-preneurship, and incubation to generate employment at grassroots level.",
+    "categories": ["innovation","rural","entrepreneurship"]
+  },
+  {
+    "id": "ati",
+    "name": "Advanced Training Institutes (ATI)",
+    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "summary": "ATI provides specialized technical and managerial training programs to upskill MSME stakeholders.",
+    "categories": ["training","skill-development"]
+  },
+  {
+    "id": "coir",
+    "name": "Coir Vikas Yojana",
+    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "summary": "Focused on development of the coir sector — supports improved production techniques, skill training, and linkages to markets.",
+    "categories": ["sectoral","agri"]
+  },
+  {
+    "id": "cgtmse",
+    "name": "CGTMSE",
+    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "summary": "Credit Guarantee Fund Trust for MSEs — enables collateral-free credit by providing lender guarantees for eligible micro & small enterprises.",
+    "categories": ["finance","credit"]
+  },
+  {
+    "id": "esdp",
+    "name": "ESDP",
+    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "summary": "Entrepreneurship & Skill Development Programme — training initiatives to enable aspiring entrepreneurs to launch and run MSMEs.",
+    "categories": ["training","entrepreneurship"]
+  },
+  {
+    "id": "international",
+    "name": "International Cooperation",
+    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "summary": "Facilitates international linkages for technology transfer, market access and international collaboration for MSMEs.",
+    "categories": ["international","policy"]
+  },
+  {
+    "id": "pmeg",
+    "name": "PMEGP",
+    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "summary": "Prime Minister’s Employment Generation Programme — credit-linked subsidy to set up new micro-enterprises and generate employment.",
+    "categories": ["employment","finance"]
+  }
+]
