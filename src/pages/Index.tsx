@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation';
 import { HeroSection } from '@/components/HeroSection';
 import { AssessmentSection } from '@/components/AssessmentSection';
 import { ToolsSection } from '@/components/ToolsSection';
+import { SchemesSection } from '@/components/SchemesSection';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const Index = () => {
@@ -58,24 +59,7 @@ const Index = () => {
           </div>
         );
       case 'schemes':
-        return (
-          <div className="min-h-screen flex items-center justify-center p-4">
-            <div className="text-center max-w-2xl">
-              <h1 className="text-3xl font-bold mb-4">{t('schemes.title')}</h1>
-              <p className="text-muted-foreground">{t('schemes.subtitle')}</p>
-              <div className="grid gap-4 mt-8">
-                <div className="p-6 border rounded-lg text-left">
-                  <h3 className="font-semibold">CGTMSE Scheme</h3>
-                  <p className="text-sm text-muted-foreground">Collateral-free loans up to ₹2 crores</p>
-                </div>
-                <div className="p-6 border rounded-lg text-left">
-                  <h3 className="font-semibold">PM SVANidhi</h3>
-                  <p className="text-sm text-muted-foreground">Special loans for street vendors</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        );
+        return <SchemesSection />;
       case 'analytics':
         return (
           <div className="min-h-screen flex items-center justify-center p-4">

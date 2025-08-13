@@ -1,51 +1,122 @@
 [
   {
-    "id": "aspire",
-    "name": "ASPIRE",
-    "url": "https://www.nimsme.gov.in/msme-schemes",
-    "summary": "A Scheme for Promoting Innovation, Rural Industry & Entrepreneurship — supports rural innovation, micro-preneurship, and incubation to generate employment at grassroots level.",
-    "categories": ["innovation","rural","entrepreneurship"]
-  },
-  {
-    "id": "ati",
-    "name": "Advanced Training Institutes (ATI)",
-    "url": "https://www.nimsme.gov.in/msme-schemes",
-    "summary": "ATI provides specialized technical and managerial training programs to upskill MSME stakeholders.",
-    "categories": ["training","skill-development"]
-  },
-  {
-    "id": "coir",
-    "name": "Coir Vikas Yojana",
-    "url": "https://www.nimsme.gov.in/msme-schemes",
-    "summary": "Focused on development of the coir sector — supports improved production techniques, skill training, and linkages to markets.",
-    "categories": ["sectoral","agri"]
-  },
-  {
     "id": "cgtmse",
-    "name": "CGTMSE",
-    "url": "https://www.nimsme.gov.in/msme-schemes",
-    "summary": "Credit Guarantee Fund Trust for MSEs — enables collateral-free credit by providing lender guarantees for eligible micro & small enterprises.",
-    "categories": ["finance","credit"]
+    "name": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)",
+    "url": "https://www.nimsme.gov.in/about-scheme/credit-guarantee-fund-trust-for-micro-and-small-enterprises-cgtmse-",
+    "summary": "Enables collateral-free credit by providing lender guarantees for eligible micro & small enterprises up to ₹2 crores.",
+    "categories": ["finance", "credit"],
+    "eligibility": "Micro and Small Enterprises as per MSMED Act 2006",
+    "benefits": "Collateral-free loans, Reduced documentation, Quick processing",
+    "amount": "Up to ₹2 crores"
+  },
+  {
+    "id": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "url": "https://www.nimsme.gov.in/about-scheme/prime-minister-employment-generation-programme-pmegp",
+    "summary": "Credit-linked subsidy to set up new micro-enterprises and generate employment opportunities.",
+    "categories": ["employment", "finance"],
+    "eligibility": "18+ years, 8th pass for projects above ₹10 lakhs",
+    "benefits": "15-35% subsidy, Self-employment opportunities",
+    "amount": "₹25 lakhs (manufacturing), ₹10 lakhs (service)"
+  },
+  {
+    "id": "aspire",
+    "name": "A Scheme for Promotion of Innovation, Rural Industries and Entrepreneurship (ASPIRE)",
+    "url": "https://www.nimsme.gov.in/about-scheme/a-scheme-for-promotion-of-innovation-rural-industries-and-entrepreneurship-aspire-",
+    "summary": "Supports rural innovation, micro-entrepreneurship, and incubation to generate employment at grassroots level.",
+    "categories": ["innovation", "rural", "entrepreneurship"],
+    "eligibility": "Rural entrepreneurs, Innovators, Start-ups",
+    "benefits": "Incubation support, Funding assistance, Mentorship",
+    "amount": "Up to ₹50 lakhs per project"
+  },
+  {
+    "id": "ramp",
+    "name": "Raising and Accelerating MSME Performance (RAMP)",
+    "url": "https://www.nimsme.gov.in/about-scheme/raising-and-accelerating-msme-performance-ramp-",
+    "summary": "World Bank-assisted program to improve access to market and credit for MSMEs with focus on greening and digitalization.",
+    "categories": ["performance", "digital", "green"],
+    "eligibility": "Registered MSMEs",
+    "benefits": "Market linkage, Technology upgradation, Digital transformation",
+    "amount": "₹6,062.45 crores (total program)"
+  },
+  {
+    "id": "msecdp",
+    "name": "Micro & Small Enterprises Cluster Development Programme (MSE-CDP)",
+    "url": "https://www.nimsme.gov.in/about-scheme/micro-small-enterprises-cluster-development-programme-mse-cdp-scheme",
+    "summary": "Enhances productivity and competitiveness of MSMEs through cluster-based development approach.",
+    "categories": ["cluster", "development"],
+    "eligibility": "MSME clusters with minimum 50 units",
+    "benefits": "Infrastructure development, Skill development, Technology upgradation",
+    "amount": "Up to ₹10 crores per cluster"
   },
   {
     "id": "esdp",
-    "name": "ESDP",
-    "url": "https://www.nimsme.gov.in/msme-schemes",
-    "summary": "Entrepreneurship & Skill Development Programme — training initiatives to enable aspiring entrepreneurs to launch and run MSMEs.",
-    "categories": ["training","entrepreneurship"]
+    "name": "Entrepreneurship & Skill Development Programme (ESDP)",
+    "url": "https://www.nimsme.gov.in/about-scheme/entrepreneurship-and-skill-development-programme-esdp-scheme",
+    "summary": "Training initiatives to enable aspiring entrepreneurs to launch and run MSMEs successfully.",
+    "categories": ["training", "entrepreneurship", "skill-development"],
+    "eligibility": "Aspiring entrepreneurs, Existing MSME owners",
+    "benefits": "Free training, Certification, Mentorship support",
+    "amount": "Free training programs"
+  },
+  {
+    "id": "champions",
+    "name": "MSME Champions Scheme",
+    "url": "https://www.nimsme.gov.in/about-scheme/msme-champions-scheme",
+    "summary": "Creating MSME Champions who will handhold and nurture other MSMEs for better growth and performance.",
+    "categories": ["mentorship", "growth"],
+    "eligibility": "High-performing MSMEs",
+    "benefits": "Mentorship opportunities, Network access, Recognition",
+    "amount": "Support-based scheme"
   },
   {
     "id": "international",
-    "name": "International Cooperation",
-    "url": "https://www.nimsme.gov.in/msme-schemes",
+    "name": "International Cooperation (IC) Scheme",
+    "url": "https://www.nimsme.gov.in/about-scheme/international-cooperation-ic-scheme",
     "summary": "Facilitates international linkages for technology transfer, market access and international collaboration for MSMEs.",
-    "categories": ["international","policy"]
+    "categories": ["international", "export"],
+    "eligibility": "Export-oriented MSMEs",
+    "benefits": "International market access, Technology transfer, Export promotion",
+    "amount": "Project-based funding"
   },
   {
-    "id": "pmeg",
-    "name": "PMEGP",
-    "url": "https://www.nimsme.gov.in/msme-schemes",
-    "summary": "Prime Minister’s Employment Generation Programme — credit-linked subsidy to set up new micro-enterprises and generate employment.",
-    "categories": ["employment","finance"]
+    "id": "sfurti",
+    "name": "Scheme of Fund for Regeneration of Traditional Industries (SFURTI)",
+    "url": "https://www.nimsme.gov.in/about-scheme/scheme-of-fund-for-regeneration-of-traditional-industries-sfurti-",
+    "summary": "Organizes traditional industries and artisans into clusters to improve their competitiveness and provide sustainable employment.",
+    "categories": ["traditional", "artisan", "cluster"],
+    "eligibility": "Traditional industry clusters, Artisan groups",
+    "benefits": "Skill development, Market linkage, Infrastructure support",
+    "amount": "Up to ₹8 crores per cluster"
+  },
+  {
+    "id": "cgssd",
+    "name": "Credit Guarantee Scheme for Subordinate Debt (CGSSD) for Stressed MSMEs",
+    "url": "https://www.nimsme.gov.in/about-scheme/credit-guarantee-scheme-for-subordinate-debt-cgssd-for-stressed-msmes",
+    "summary": "Provides guarantee coverage for subordinate debt to stressed MSMEs for revival and restructuring.",
+    "categories": ["finance", "revival"],
+    "eligibility": "Stressed MSMEs with NPAs",
+    "benefits": "Subordinate debt guarantee, Revival support",
+    "amount": "Up to ₹2 crores"
+  },
+  {
+    "id": "clcss",
+    "name": "Credit Linked Capital Subsidy Scheme for Technology Upgradation",
+    "url": "https://www.nimsme.gov.in/about-scheme/credit-linked-capital-subsidy-scheme-for-technology-upgradation",
+    "summary": "Facilitates technology upgradation by providing upfront capital subsidy for plant and machinery.",
+    "categories": ["technology", "subsidy"],
+    "eligibility": "Existing MSMEs for technology upgradation",
+    "benefits": "15% capital subsidy, Technology upgradation",
+    "amount": "Up to ₹15 lakhs subsidy"
+  },
+  {
+    "id": "scst-hub",
+    "name": "National SC-ST Hub Scheme",
+    "url": "https://www.nimsme.gov.in/about-scheme/national-sc-st-hub-scheme",
+    "summary": "Facilitates procurement from SC/ST enterprises and promotes entrepreneurship among SC/ST communities.",
+    "categories": ["procurement", "inclusion"],
+    "eligibility": "SC/ST entrepreneurs and enterprises",
+    "benefits": "Market linkage, Procurement support, Capacity building",
+    "amount": "Market-based scheme"
   }
 ]
