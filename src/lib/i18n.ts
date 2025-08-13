@@ -9,8 +9,8 @@ export interface I18nConfig {
 export const translations = {
   en: {
     // Common
-    'app.title': 'MSME Digital Buddy',
-    'app.tagline': 'Empowering Indian businesses with digital tools',
+    'app.title': 'DigiCAT',
+    'app.tagline': 'Digital Capability Assessment Tool for Indian businesses',
     'lang.english': 'English',
     'lang.hindi': 'हिन्दी',
     'common.loading': 'Loading...',
@@ -86,8 +86,8 @@ export const translations = {
   },
   hi: {
     // Common
-    'app.title': 'एमएसएमई डिजिटल साथी',
-    'app.tagline': 'भारतीय व्यवसायों को डिजिटल उपकरणों के साथ सशक्त बनाना',
+    'app.title': 'डिजीकैट',
+    'app.tagline': 'भारतीय व्यवसायों के लिए डिजिटल क्षमता मूल्यांकन उपकरण',
     'lang.english': 'English',
     'lang.hindi': 'हिन्दी',
     'common.loading': 'लोड हो रहा है...',

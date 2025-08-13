@@ -36,9 +36,9 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
   ];
 
   const stats = [
-    { number: '10,000+', label: 'Businesses Transformed' },
-    { number: '₹50L+', label: 'Revenue Generated' },
-    { number: '95%', label: 'Success Rate' },
+    { number: '7', label: 'Assessment Areas' },
+    { number: '4+', label: 'Free Tools' },
+    { number: '100%', label: 'Free to Use' },
   ];
 
   return (
@@ -110,19 +110,18 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
                       <Users className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg">MSME Success Story</h3>
-                      <p className="text-muted-foreground">Rajesh Kumar, Mumbai</p>
+                      <h3 className="font-semibold text-lg">Digital Assessment Preview</h3>
+                      <p className="text-muted-foreground">Evaluate Your Digital Readiness</p>
                     </div>
                   </div>
                   
                   <p className="text-sm leading-relaxed">
-                    &quot;In 6 months, I increased my customer base by 300% using digital tools. 
-                    The assessment showed me exactly what I needed to learn.&quot;
+                    Discover your digital strengths and identify areas for improvement with our comprehensive assessment covering smartphone usage, digital payments, online presence, and more.
                   </p>
                   
                   <div className="flex items-center gap-4 pt-2">
-                    <div className="text-success font-semibold">₹5L Revenue</div>
-                    <div className="text-primary font-semibold">40% Growth</div>
+                    <div className="text-success font-semibold">Free Assessment</div>
+                    <div className="text-primary font-semibold">Instant Results</div>
                   </div>
                 </div>
               </CardContent>
