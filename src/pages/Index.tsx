@@ -60,29 +60,6 @@ const Index = () => {
         );
       case 'schemes':
         return <SchemesSection />;
-      case 'analytics':
-        return (
-          <div className="min-h-screen flex items-center justify-center p-4">
-            <div className="text-center max-w-2xl">
-              <h1 className="text-3xl font-bold mb-4">{t('analytics.title')}</h1>
-              <p className="text-muted-foreground">{t('analytics.subtitle')}</p>
-              <div className="grid md:grid-cols-3 gap-4 mt-8">
-                <div className="p-6 border rounded-lg">
-                  <div className="text-3xl font-bold text-success">₹15,000</div>
-                  <p className="text-sm text-muted-foreground">Monthly Revenue</p>
-                </div>
-                <div className="p-6 border rounded-lg">
-                  <div className="text-3xl font-bold text-primary">5</div>
-                  <p className="text-sm text-muted-foreground">Tools Used</p>
-                </div>
-                <div className="p-6 border rounded-lg">
-                  <div className="text-3xl font-bold text-warning">200%</div>
-                  <p className="text-sm text-muted-foreground">Growth Rate</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        );
       default:
         return <HeroSection onNavigate={handleNavigate} />;
     }

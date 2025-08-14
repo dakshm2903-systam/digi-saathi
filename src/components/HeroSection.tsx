@@ -87,6 +87,14 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
               >
                 {t('cta.useTools')}
               </Button>
+              
+              <Button 
+                variant="secondary" 
+                size="xl"
+                onClick={() => onNavigate('schemes')}
+              >
+                Explore Schemes
+              </Button>
             </div>
 
             {/* Stats */}

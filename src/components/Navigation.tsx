@@ -6,8 +6,7 @@ import {
   ClipboardCheck, 
   BookOpen, 
   Wrench, 
-  Building, 
-  BarChart3,
+  Building,
   Menu,
   X
 } from 'lucide-react';
@@ -25,10 +24,9 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
   const navItems = [
     { key: 'home', label: t('nav.home'), icon: Home },
     { key: 'assessment', label: t('nav.assessment'), icon: ClipboardCheck },
-    { key: 'learn', label: t('nav.learn'), icon: BookOpen },
-    { key: 'tools', label: t('nav.tools'), icon: Wrench },
     { key: 'schemes', label: t('nav.schemes'), icon: Building },
-    { key: 'analytics', label: t('nav.analytics'), icon: BarChart3 },
+    { key: 'tools', label: t('nav.tools'), icon: Wrench },
+    { key: 'learn', label: t('nav.learn'), icon: BookOpen },
   ];
 
   return (
