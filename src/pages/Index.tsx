@@ -57,9 +57,9 @@ const Index = () => {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold mb-2">Digital Marketing Fundamentals</h3>
+                        <h3 className="font-semibold mb-2">Productivity Tools for Business</h3>
                         <p className="text-sm text-muted-foreground mb-4">
-                          Learn the basics of digital marketing for your business
+                          Learn the basics leveraging productivity tools for your business
                         </p>
                         <a 
                           href="https://www.youtube.com/watch?v=rn_ADJyb_K8" 
@@ -82,9 +82,9 @@ const Index = () => {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold mb-2">Business Growth Strategies</h3>
+                        <h3 className="font-semibold mb-2">AI Tools for Business</h3>
                         <p className="text-sm text-muted-foreground mb-4">
-                          Discover effective strategies to grow your business online
+                          Discover various AI tools to enhance efficiency
                         </p>
                         <a 
                           href="https://www.youtube.com/watch?v=760SGirpyvQ" 
@@ -107,9 +107,9 @@ const Index = () => {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold mb-2">E-commerce Essentials</h3>
+                        <h3 className="font-semibold mb-2">Digital Financial Solutions</h3>
                         <p className="text-sm text-muted-foreground mb-4">
-                          Master the fundamentals of selling products online
+                          Master the fundamentals of finance management for digital business
                         </p>
                         <a 
                           href="https://www.youtube.com/watch?v=f1t9DHYqWNs" 
@@ -132,9 +132,9 @@ const Index = () => {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold mb-2">Financial Management</h3>
+                        <h3 className="font-semibold mb-2">Scale Small Business</h3>
                         <p className="text-sm text-muted-foreground mb-4">
-                          Learn to manage your business finances effectively
+                          Learn to achieve scale for small businesses
                         </p>
                         <a 
                           href="https://www.youtube.com/watch?v=-c_4ZZ4e5H4" 
@@ -157,7 +157,7 @@ const Index = () => {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold mb-2">Technology for Business</h3>
+                        <h3 className="font-semibold mb-2">Prerequisites of Digitization</h3>
                         <p className="text-sm text-muted-foreground mb-4">
                           Leverage technology to streamline your business operations
                         </p>
@@ -182,9 +182,9 @@ const Index = () => {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold mb-2">Complete Business Course</h3>
+                        <h3 className="font-semibold mb-2">Digital Skill Development Course</h3>
                         <p className="text-sm text-muted-foreground mb-4">
-                          Full playlist covering all aspects of modern business
+                          Full playlist covering all aspects of modern digital business
                         </p>
                         <a 
                           href="https://www.youtube.com/playlist?list=PLFwyro9MnMVxQlXbNyhKVIMRRG5fB93wM" 
@@ -201,32 +201,7 @@ const Index = () => {
               </div>
 
               {/* Traditional Learning Section */}
-              <div>
-                <h2 className="text-2xl font-semibold mb-6">Recommended Learning Path</h2>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="bg-card rounded-lg p-6 border">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                      <span className="text-2xl">📱</span>
-                    </div>
-                    <h3 className="font-semibold mb-2">WhatsApp Business Setup</h3>
-                    <p className="text-sm text-muted-foreground">Learn to use WhatsApp for customer communication</p>
-                  </div>
-                  <div className="bg-card rounded-lg p-6 border">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                      <span className="text-2xl">💳</span>
-                    </div>
-                    <h3 className="font-semibold mb-2">UPI Payment Setup</h3>
-                    <p className="text-sm text-muted-foreground">Accept digital payments easily</p>
-                  </div>
-                  <div className="bg-card rounded-lg p-6 border">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                      <span className="text-2xl">📊</span>
-                    </div>
-                    <h3 className="font-semibold mb-2">Digital Marketing Basics</h3>
-                    <p className="text-sm text-muted-foreground">Reach more customers online</p>
-                  </div>
-                </div>
-              </div>
+             
             </div>
           </div>
         );
